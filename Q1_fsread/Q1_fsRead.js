@@ -26,9 +26,12 @@
 // solution:-
 
 const fs = require('fs').promises;
+const path = require('path');
+
 async function readFileContent(filePath) {
     try {
-        const data = await fs.readFile(filePath, 'utf8');
+        const absolutePath = path.join(__dirname, filePath);
+        const data = await fs.readFile(absolutePath, 'utf8');
         console.log(`File Content:\n${data}`);
     } catch (err) {
         if (err.code === 'ENOENT') {
@@ -44,9 +47,11 @@ async function testReadFileContent() {
     await readFileContent('test-files/file1.txt');
     await readFileContent('test-files/empty-file.txt');
     await readFileContent('test-files/nonexistent-file.txt');
-  }
+}
 
 testReadFileContent();
+
+
 
 
 
