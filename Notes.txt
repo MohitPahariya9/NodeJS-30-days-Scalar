@@ -1,0 +1,35 @@
+--> Global object :- console.log(window.name) <--wont work
+			(global.name) <--undefined
+	NODE JS KEEP IN THE FILE SCOPE ONLY
+
+--> module ystem of nodeJS
+	file seperation is module
+
+--> moodule.export{} / module.default{}
+	module.export{
+		addition : add <-- key
+		}
+
+-->Node Internal Modules:-
+	
+	cp--childprocess-->
+		cp.execSync('calc')
+		cp.execSync('StartChrome')
+		console.log('output ' + cp.execSync('node demo.js'))
+	
+	OS module-->
+		os.arch()
+		os.platform()
+		os.networkInterface()
+		os.cpus()
+		os.totalmem()
+		os.freemem()
+	
+	Path Module-->
+		Path.extname('path')
+		Path.basename;
+		(__filename)
+		(__dirname)
+
+	FS Module-->
+		c
