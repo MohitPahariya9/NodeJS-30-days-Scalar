@@ -1,0 +1,7 @@
+Express, Body-parser, and Socket.io are all examples of Node.js modules commonly used in web development.
+
+    ->Express is a web application framework for Node.js, providing a robust set of features for building web and mobile applications.
+
+    ->Body-parser is a middleware module for Express that parses incoming request bodies in a middleware before your handlers, and makes the parsed data available in the request object.
+
+    ->Socket.io is a library that enables real-time, bidirectional and event-based communication between the browser and the server. It is often used for building real-time web applications.
