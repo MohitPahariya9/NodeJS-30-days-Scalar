@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket</title>
+</head>
+
+<body>
+    <h1>WebSocket</h1>
+    <input type="text" id="message" placeholder="Enter Message :">
+    <button onclick="sendMessage()">Send</button>
+    <script>
+       const socket = new WebSocket(`ws://${location.host}`);
+    
+        // Connection opened
+        socket.addEventListener('open', (event) => {
+          console.log('WebSocket connection opened');
+          socket.send('Hello, WebSocket!');
+        });
+    
+        // Listen for messages
+        socket.addEventListener('message', (event) => {
+          console.log(`Received message: ${event.data}`);
+        });
+    
+        // Connection closed
+        socket.addEventListener('close', (event) => {
+          console.log('WebSocket connection closed');
+        });
+
+        // Function to send a message
+        function sendMessage() {
+          const messageInput = document.getElementById('message');
+          const message = messageInput.value;
+          socket.send(message);
+          messageInput.value = '';  
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
