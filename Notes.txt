@@ -31,5 +31,42 @@
 		(__filename)
 		(__dirname)
 
-	FS Module-->
-		c
+	FS Module-->file system module;
+	        For File:-	
+		readFileSync (+) to concatenate
+		writeFileSync
+		unlinkSync() - delete
+
+	        For Directory:-
+		fs.mkdirSync() -- create
+		readdirSync(path)-- to check content
+		fs.existsSync('myDir') -- check existence
+		fs.rmdirSync('myDir') -- delete a directory
+
+#NPM node package manager;
+
+# .gitignore -> node_module/
+# semantic versioning "^1.5.2" (major.minor.patch)
+#publish own package:-
+		->npm add user
+		->add details NPM and login
+		->NPM login
+		->index.js make file in directory
+		->npm publish
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
