@@ -321,7 +321,7 @@ https://www.linkedin.com/posts/mohitpahariya9_hey-there-i-am-excited-to-share-th
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Day 19
 
 Hey There!
-I am excited to share that I have successfully completed Day 19 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on 
+I am excited to share that I have successfully completed Day 19 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on Mongoose Validation.
 
 If you'd like to join Scaler Discord to participate in the 30 Days of Node.js challenge or other such challenges and meet like minded folks: 
 https://lnkd.in/dkwWHHCh
@@ -331,5 +331,21 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 RusTty07-mohitp07-challenger
 
-Day 19/30: Just solved the problem of Day 19 was on  in NodeJS. You should also give it a try :killer_smile:
+Day 19/30: Just solved the problem of Day 19 was on Mongoose Validation in NodeJS. You should also give it a try :killer_smile:
 
+https://www.linkedin.com/posts/mohitpahariya9_hey-there-i-am-excited-to-share-that-i-have-activity-7165308828014632961-WHU4?utm_source=share&utm_medium=member_desktop
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Day 20
+
+Hey There!
+I am excited to share that I have successfully completed Day 20 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on 
+
+If you'd like to join Scaler Discord to participate in the 30 Days of Node.js challenge or other such challenges and meet like minded folks: 
+https://lnkd.in/dkwWHHCh
+
+hashtag#30DaysOfNodejs hashtag#ScalerDiscord hashtag#ScalerTopics @Scaler_official
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+RusTty07-mohitp07-challenger
+
+Day 20/30: Just solved the problem of Day 20 was on  in NodeJS. You should also give it a try :killer_smile:
