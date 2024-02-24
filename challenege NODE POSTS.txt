@@ -406,7 +406,7 @@ https://www.linkedin.com/posts/mohitpahariya9_hey-there-i-am-excited-to-share-th
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Day 24
 
 Hey There!
-I am excited to share that I have successfully completed Day 24 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on 
+I am excited to share that I have successfully completed Day 24 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on Express Route for Product CRUD Operations.
 
 If you'd like to join Scaler Discord to participate in the 30 Days of Node.js challenge or other such challenges and meet like minded folks: 
 https://lnkd.in/dkwWHHCh
@@ -416,4 +416,23 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 RusTty07-mohitp07-challenger
 
-Day 24/30: Just solved the problem of Day 24 was on  in NodeJS. You should also give it a try :killer_smile:
+Day 24/30: Just solved the problem of Day 24 was on Express Route for Product CRUD Operations in NodeJS. You should also give it a try :killer_smile:
+
+https://www.linkedin.com/posts/mohitpahariya9_hey-there-i-am-excited-to-share-that-i-have-activity-7167036183464587264-8t26?utm_source=share&utm_medium=member_desktop
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Day 25
+
+Hey There!
+I am excited to share that I have successfully completed Day 25 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on 
+
+If you'd like to join Scaler Discord to participate in the 30 Days of Node.js challenge or other such challenges and meet like minded folks: 
+https://lnkd.in/dkwWHHCh
+
+hashtag#30DaysOfNodejs hashtag#ScalerDiscord hashtag#ScalerTopics @Scaler_official @
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+RusTty07-mohitp07-challenger
+
+Day 25/30: Just solved the problem of Day 25 was on  in NodeJS. You should also give it a try :killer_smile:
+
+
