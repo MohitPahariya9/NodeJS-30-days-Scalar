@@ -1,0 +1,5 @@
+postman> body > json 
+
+put/patch--update
+get/post--read/write
+delete--delete
