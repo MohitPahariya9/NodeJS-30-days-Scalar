@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Test</title>
+</head>
+
+<body>
+    <h1>WebSocket Test</h1>
+    <input type="text" id="messageInput" placeholder="Type a message">
+    <button id="sendMessageButton">Send Message</button>
+    <ul id="messageList"></ul>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const socket = new WebSocket('ws://localhost:3000'); // Change the URL to your server
+            const messageInput = document.getElementById('messageInput');
+            const sendMessageButton = document.getElementById('sendMessageButton');
+            const messageList = document.getElementById('messageList');
+
+            socket.addEventListener('open', (event) => {
+                console.log('WebSocket Connection Opened', event);
+                socket.send('Hello, WebSocket!'); // Send a test message after the connection is open
+            });
+
+            socket.addEventListener('message', (event) => {
+                const receivedData = event.data;
+
+                if (receivedData instanceof Blob) {
+                    handleBlobData(receivedData);
+                } else {
+                    console.log('Received message:', receivedData);
+                    displayMessage(receivedData);
+                }
+            });
+
+            socket.addEventListener('close', (event) => {
+                console.log('WebSocket Connection Closed', event);
+            });
+
+            sendMessageButton.addEventListener('click', () => {
+                const message = messageInput.value.trim();
+
+                if (message) {
+                    socket.send(message); // Send the message to the server
+                    messageInput.value = ''; // Clear the input field
+                }
+            });
+
+            function handleBlobData(blobData) {
+                const reader = new FileReader();
+
+                reader.onload = function () {
+                    const textData = reader.result;
+                    console.log('Received text:', textData);
+                    displayMessage(textData);
+                };
+
+                reader.readAsText(blobData);
+            }
+
+            function displayMessage(message) {
+                const li = document.createElement('li');
+                li.textContent = message;
+                messageList.appendChild(li);
+            }
+        });
+    </script>
+</body>
+
+</html>
