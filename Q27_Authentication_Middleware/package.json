@@ -1,0 +1,19 @@
+{
+  "name": "q27_authentication_middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "authMiddleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "node": "^21.6.2",
+    "nodemon": "^3.1.0"
+  }
+}
