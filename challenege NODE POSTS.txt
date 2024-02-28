@@ -474,7 +474,7 @@ https://www.linkedin.com/posts/mohitpahariya9_hey-there-i-am-excited-to-share-th
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Day 28
 
 Hey There!
-I am excited to share that I have successfully completed Day 28 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on 
+I am excited to share that I have successfully completed Day 28 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on WebSocket Integration.
 
 If you'd like to join Scaler Discord to participate in the 30 Days of Node.js challenge or other such challenges and meet like minded folks: 
 https://lnkd.in/dkwWHHCh
@@ -484,4 +484,21 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 RusTty07-mohitp07-challenger
 
-Day 28/30: Just solved the problem of Day 28 was on  in NodeJS. You should also give it a try :killer_smile:
+Day 28/30: Just solved the problem of Day 28 was on WebSocket Integration in NodeJS. You should also give it a try :killer_smile:
+
+https://www.linkedin.com/posts/mohitpahariya9_hey-there-i-am-excited-to-share-that-i-have-activity-7168510109193555969-bfRC?utm_source=share&utm_medium=member_desktop
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Day 29
+
+Hey There!
+I am excited to share that I have successfully completed Day 29 of the 30 Days of Node.js, hosted on the Scaler Discord platform. Problem was on 
+
+If you'd like to join Scaler Discord to participate in the 30 Days of Node.js challenge or other such challenges and meet like minded folks: 
+https://lnkd.in/dkwWHHCh
+
+hashtag#30DaysOfNodejs hashtag#ScalerDiscord hashtag#ScalerTopics @Scaler_official @
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+RusTty07-mohitp07-challenger
+
+Day 29/30: Just solved the problem of Day 29 was on  in NodeJS. You should also give it a try :killer_smile:
